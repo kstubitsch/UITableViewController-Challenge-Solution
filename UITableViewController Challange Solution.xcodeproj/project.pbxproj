@@ -14,13 +14,13 @@
 		B80C3F0218DDF3C8002262E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C3F0118DDF3C8002262E5 /* main.m */; };
 		B80C3F0618DDF3C8002262E5 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C3F0518DDF3C8002262E5 /* KSAppDelegate.m */; };
 		B80C3F0918DDF3C8002262E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80C3F0718DDF3C8002262E5 /* Main.storyboard */; };
-		B80C3F0C18DDF3C8002262E5 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C3F0B18DDF3C8002262E5 /* KSViewController.m */; };
 		B80C3F0E18DDF3C8002262E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80C3F0D18DDF3C8002262E5 /* Images.xcassets */; };
 		B80C3F1518DDF3C9002262E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C3F1418DDF3C8002262E5 /* XCTest.framework */; };
 		B80C3F1618DDF3C9002262E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C3EF518DDF3C8002262E5 /* Foundation.framework */; };
 		B80C3F1718DDF3C9002262E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80C3EF918DDF3C8002262E5 /* UIKit.framework */; };
 		B80C3F1F18DDF3C9002262E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B80C3F1D18DDF3C9002262E5 /* InfoPlist.strings */; };
 		B80C3F2118DDF3C9002262E5 /* UITableViewController_Challange_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C3F2018DDF3C9002262E5 /* UITableViewController_Challange_SolutionTests.m */; };
+		B80C3F2C18DDF58C002262E5 /* KSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B80C3F2B18DDF58C002262E5 /* KSTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		B80C3F0418DDF3C8002262E5 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
 		B80C3F0518DDF3C8002262E5 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
 		B80C3F0818DDF3C8002262E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B80C3F0A18DDF3C8002262E5 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
-		B80C3F0B18DDF3C8002262E5 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
 		B80C3F0D18DDF3C8002262E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B80C3F1318DDF3C8002262E5 /* UITableViewController Challange SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challange SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B80C3F1418DDF3C8002262E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B80C3F1C18DDF3C9002262E5 /* UITableViewController Challange SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challange SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		B80C3F1E18DDF3C9002262E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B80C3F2018DDF3C9002262E5 /* UITableViewController_Challange_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challange_SolutionTests.m; sourceTree = "<group>"; };
+		B80C3F2A18DDF58C002262E5 /* KSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSTableViewController.h; path = ../KSTableViewController.h; sourceTree = "<group>"; };
+		B80C3F2B18DDF58C002262E5 /* KSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSTableViewController.m; path = ../KSTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				B80C3F0418DDF3C8002262E5 /* KSAppDelegate.h */,
 				B80C3F0518DDF3C8002262E5 /* KSAppDelegate.m */,
 				B80C3F0718DDF3C8002262E5 /* Main.storyboard */,
-				B80C3F0A18DDF3C8002262E5 /* KSViewController.h */,
-				B80C3F0B18DDF3C8002262E5 /* KSViewController.m */,
+				B80C3F2A18DDF58C002262E5 /* KSTableViewController.h */,
+				B80C3F2B18DDF58C002262E5 /* KSTableViewController.m */,
 				B80C3F0D18DDF3C8002262E5 /* Images.xcassets */,
 				B80C3EFC18DDF3C8002262E5 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B80C3F0C18DDF3C8002262E5 /* KSViewController.m in Sources */,
 				B80C3F0618DDF3C8002262E5 /* KSAppDelegate.m in Sources */,
 				B80C3F0218DDF3C8002262E5 /* main.m in Sources */,
+				B80C3F2C18DDF58C002262E5 /* KSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

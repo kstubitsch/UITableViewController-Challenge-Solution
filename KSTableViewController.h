@@ -1,5 +1,5 @@
 //
-//  KSViewController.h
+//  KSTableViewController.h
 //  UITableViewController Challange Solution
 //
 //  Created by Kazimir Stubitsch on 2014-03-22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KSViewController : UIViewController
+@interface KSTableViewController : UITableViewController
 
 @end
